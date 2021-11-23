@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "A node package for generating PDF documents",
   "main": "index.js",
+  "author": "Karl-Einar Bergstrøm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtfk/pdf-generator/issues"
+  },
+  "homepage": "https://github.com/vtfk/pdf-generator#readme",
+  "keywords": [
+    "PDF",
+    "PDFGenerator"
+  ],
   "scripts": {
     "clear_types": "del-cli \"**/*.d.ts\" \"!node_modules\"",
     "tsc": "npm run clear_types && tsc",
@@ -18,16 +28,6 @@
     "type": "git",
     "url": "git+https://github.com/vtfk/pdf-generator.git"
   },
-  "keywords": [
-    "PDF",
-    "PDFGenerator"
-  ],
-  "author": "Karl-Einar Bergstrøm",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vtfk/pdf-generator/issues"
-  },
-  "homepage": "https://github.com/vtfk/pdf-generator#readme",
   "dependencies": {
     "@alheimsins/pdf-make": "^2.0.2",
     "html-to-pdfmake": "^2.3.6",
