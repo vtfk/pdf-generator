@@ -1,6 +1,6 @@
 {
   "name": "@vtfk/pdf-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node package for generating PDF documents",
   "main": "index.js",
   "author": "Karl-Einar Bergstrøm",
