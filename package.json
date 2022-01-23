@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@alheimsins/pdf-make": "^2.0.2",
-    "html-to-pdfmake": "^2.3.6",
+    "html-to-pdfmake": "^2.3.7",
     "jsdom": "^18.1.1"
   },
   "devDependencies": {
